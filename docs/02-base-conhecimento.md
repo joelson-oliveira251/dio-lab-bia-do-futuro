@@ -11,16 +11,16 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 | `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
 | `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
 
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+
 
 ---
 
 ## Adaptações nos Dados
 
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
+> Você modificou ou expandiu os dados mockados?  
 
-[Sua descrição aqui]
+Não foi necessário realizar nenhuma modificação.
+
 
 ---
 
@@ -29,7 +29,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
